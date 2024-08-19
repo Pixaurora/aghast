@@ -1,16 +1,17 @@
 {
-	"required": true,
-	"minVersion": "0.8",
-	"package": "net.pixaurora.aghast.mixin",
-	"compatibilityLevel": "JAVA_8",
-	"mixins": [
-	],
-	"client": [
-		"WorldRendererMixin"
-	],
-	"server": [
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.pixaurora.aghast.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "SlabItemMixin",
+    "WorldRendererMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
